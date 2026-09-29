@@ -6,14 +6,14 @@ const {
 const { data, save } = require('./db');
 
 const BOT_ADI = 'Fest Gun';
-const TOKEN = process.env.DISCORD_TOKEN;
+const TOKEN = process.env.DISCORD_TOKEN;MTU1NDU2NzEzMTM2MDkxOTU1Mw.GbCX2C.a9_WvHeDBfMSE-4ybHJ2N__TcOu7ejXOSS_-VM
 const GUILD_ID = process.env.GUILD_ID; // doluysa komutlar anında görünür
 const SERVER_IP = process.env.SERVER_IP || 'IP-AYARLANMADI';
 const MESAI_KANAL_ID = process.env.MESAI_KANAL_ID || '1554566189391552554';
 const LOGO_URL = process.env.LOGO_URL || null;
 
 if (!TOKEN) {
-  console.error('DISCORD_TOKEN ortam değişkeni tanımlı değil!');
+  console.error('DISCORD_TOKEN MTU1NDU2NzEzMTM2MDkxOTU1Mw.GbCX2C.a9_WvHeDBfMSE-4ybHJ2N__TcOu7ejXOSS_-VM!');
   process.exit(1);
 }
 
